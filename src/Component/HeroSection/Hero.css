@@ -1,0 +1,58 @@
+.section_container{
+    width: 85%;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+.hero_section{
+    background: url("https://www.w3schools.com/images/background_in_space.webp") ;
+}
+.hero_section .section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 585px;
+    margin-left: 150px;
+
+}
+.hero_section h1{
+    font-size: 73px;
+    color:#fff4a3;
+    margin: 0;
+}
+.hero_section p{
+    color:#fff4a3;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+}
+.hero_section h2{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hero_section h2:hover{
+    color:#fff4a3 ;
+}
+.search_section{
+    background-color:#04aa6d ;
+    width: 45%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_section input{
+    height: 100%;
+    width: 75%;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+.side_img{
+    background-repeat: no-repeat;
+    
+}

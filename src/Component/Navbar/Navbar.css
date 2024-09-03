@@ -1,0 +1,89 @@
+.nav_bar{
+    height: 65px;
+    background-color:#ffffff;
+    width: 100%;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.w3_logo{
+    width: 56px;
+}
+.w3_logo img{
+    width: 100%;
+}
+.left_side{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.left_side a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 0px 13px;
+    font-size: 17px;
+}
+.left_side a:hover{
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+.left_side a:first-child{
+    padding: 0;
+    margin-right: 20px;
+}
+.left_side a:first-child:hover{
+    background-color: transparent;
+}
+.left_side input{
+    padding: 5px 40px 5px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 15%;
+    height: 30px;
+}
+
+.toggleLightDrk{
+    transform: rotate(180deg);
+    padding: 10px;
+    cursor: pointer;
+}
+.right_side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    padding-left: 100px;
+}
+.right_side button{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    width: auto;
+    margin: auto;
+    border: transparent;
+    border-radius: 25px;
+    padding: 8px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.right_side button:hover{
+    background-color: lightgrey;
+}
+.right_side a{
+    height: 100%;
+    display: flex;
+    color: black;
+    padding:15px 18px;
+    margin:auto;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right_side a:hover{
+    background-color: lightgrey;
+}
