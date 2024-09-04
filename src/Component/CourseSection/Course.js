@@ -17,8 +17,9 @@ const Course = () => {
             <div className="editor_container">
                 <h1>HTML Example :</h1>
                 <div className="editor">
+                  
                 </div>
-                <button>Try it Yourself</button>
+                <button className="editor_btn">Try it Yourself</button>
             </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ const Course = () => {
                 <h1>CSS Example :</h1>
                 <div className="editor_css">
                 </div>
-                <button>Try it Yourself</button>
+                <button className="editor_btn">Try it Yourself</button>
             </div>
         </div>
       </div>
@@ -54,7 +55,7 @@ const Course = () => {
                 <h1>JavaScript Example :</h1>
                 <div className="editor_javascript">
                 </div>
-                <button>Try it Yourself</button>
+                <button className="editor_btn">Try it Yourself</button>
             </div>
         </div>
       </div>
@@ -72,7 +73,7 @@ const Course = () => {
                 <h1>Python Example :</h1>
                 <div className="editor_python">
                 </div>
-                <button>Try it Yourself</button>
+                <button className="editor_btn">Try it Yourself</button>
             </div>
         </div>
       </div>
@@ -90,7 +91,7 @@ const Course = () => {
                 <h1>SQL Example :</h1>
                 <div className="editor_sql">
                 </div>
-                <button>Try it Yourself</button>
+                <button className="editor_btn">Try it Yourself</button>
             </div>
         </div>
       </div>

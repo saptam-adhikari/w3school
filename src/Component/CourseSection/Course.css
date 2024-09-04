@@ -66,8 +66,26 @@
   .editor_container{
     text-align: start;
     padding-left: 20px;
+    padding-right: 20PX;
     padding-top: 15px;
     font-size: 13px;
+  }
+  .editor{
+    background-color: white;
+    height: 300px;
+    max-height: 100%;
+    min-height: 100%;
+    border-left: 5px solid #04aa6d;
+  }
+  .editor_btn{
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+    margin-top: 20px;
   }
 
   .section_css{
@@ -133,8 +151,16 @@
   .editor_container_css{
     text-align: start;
     padding-left: 20px;
+    padding-right: 20PX;
     padding-top: 15px;
     font-size: 13px;
+  }
+  .editor_css{
+    background-color: white;
+    height: 300px;
+    max-height: 100%;
+    min-height: 100%;
+    border-left: 5px solid #04aa6d;
   }
 
   .section_javascript{
@@ -202,8 +228,16 @@
   .editor_container_javascript{
     text-align: start;
     padding-left: 20px;
+    padding-right: 20PX;
     padding-top: 15px;
     font-size: 13px;
+  }
+  .editor_javascript{
+    background-color: white;
+    height: 300px;
+    max-height: 100%;
+    min-height: 100%;
+    border-left: 5px solid #04aa6d;
   }
 
   .section_python{
@@ -269,8 +303,16 @@
   .editor_container_python{
     text-align: start;
     padding-left: 20px;
+    padding-right: 20PX;
     padding-top: 15px;
     font-size: 13px;
+  }
+  .editor_python{
+    background-color: white;
+    height: 300px;
+    max-height: 100%;
+    min-height: 100%;
+    border-left: 5px solid #04aa6d;
   }
 
   .section_sql{
@@ -336,6 +378,14 @@
   .editor_container_sql{
     text-align: start;
     padding-left: 20px;
+    padding-right: 20PX;
     padding-top: 15px;
     font-size: 13px;
+  }
+  .editor_sql{
+    background-color: white;
+    height: 300px;
+    max-height: 100%;
+    min-height: 100%;
+    border-left: 5px solid #04aa6d;
   }
