@@ -1,0 +1,182 @@
+.codeEditor_part {
+    text-align: center;
+    width: 100%;
+    background-color: #282a35;
+    margin: auto;
+    margin-top: -45px;
+}
+
+.codeEditor_part h1,
+.codeEditor_part p {
+    color: white;
+}
+
+.codeEditor_part h1 {
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.codeEditor_part p {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.codeEditor_part_left {
+    width: 100%;
+    max-width: 70px;
+}
+
+.codeEditor_dot.red {
+    background-color: red;
+}
+
+.codeEditor_dot.yellow {
+    background-color: yellow;
+}
+
+.codeEditor_dot.green {
+    background-color: green;
+}
+
+.codeEditor_dot {
+    padding: 8px;
+    margin-left: 6px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.codeEditor_part_right {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 3px;
+    margin: auto;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.codeEditor_part_container {
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.codeEditor_part_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.codeEditor_condition {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.codeEditor_condition .tab_button {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.codeEditor_condition .tab_button.active {
+    background-color: #ddd;
+    color: #000;
+}
+
+.codeEditor_content {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.codeEditor_image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.btn_below.green{
+    background-color:#04aa6d ;
+    color: white;
+}
+.btn_below.yellow{
+    background-color:#fff4a3 ;
+    color: black;
+}
+.codeEditor_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+.btn_below{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.w3school_space_container{
+    width: 100%;
+    background-color: #282a35;
+    margin: auto;
+    text-align: center;
+    margin-top: -44px;
+    padding-top: 140px;
+    padding-bottom: 5px;
+}
+.w3school_space_container img{
+    width: 100%;
+    max-width: 950px;
+    margin-top: 40px;
+}
+.w3school_space_container h1{
+    font-size: 65px;
+    margin-bottom: 0;
+    color: white;
+}
+.w3school_space_container p{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.w3school_space_container span{
+    color: pink;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.w3school_space_container span:hover{
+    color: #04aa6d;
+}
+.w3school_space_container a{
+    display: block;
+    text-decoration: none;
+    padding: 13px 18px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: #04aa6d;
+    color: #f1f1f1;
+    width: 100%;
+    max-width: 230px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 130px;
+}

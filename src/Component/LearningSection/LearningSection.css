@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+.learning_section{
+    width: 100%;
+    background-color: #d9eee1;
+    margin: auto;
+    top:-5px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
+.learning_section h1{
+    font-size: 65px;
+    margin-bottom: 0;
+    color: black;
+}
+.learning_section p{
+    font-size: 20px;
+    font-weight: 650;
+}
+.learning_section img{
+    width: 100%;
+    max-width: 1050px;
+    margin-top: 35px;
+}
+.learning_section a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #04aa6d;
+    color: #f1f1f1;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.become_prouser{
+    background-color: #282a35;
+    width: 100%;
+    margin: auto;
+    top:-5px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.become_prouser h1{
+    font-size: 55px;
+    margin-bottom: 0;
+    color: white;
+}
+.become_prouser h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: pink;
+}
+.feature_item{
+    margin: auto;
+    width: fit-content;
+}
+.feature_list{
+    display: flex;    
+}
+.feature_list p{
+    font-size: 20px;
+    font-weight: 650;
+    color: #fff2df;
+    line-height: 5px;
+}
+.feature_list img{
+    margin-right: 15px;
+}
+.become_prouser a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #04aa6d;
+    color: #f1f1f1;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.color_picker{
+    background-color: #f3ecea;
+    width: 100%;
+    margin: auto;
+    top:-5px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.color_picker h1{
+    font-size: 65px;
+    margin-bottom: 0;
+    color: black;
+}
+.color_picker p{
+    font-size: 21px;
+    font-weight: 580;
+    color: black;
+}
+.color_picker img{
+    width: 100%;
+    max-width: 165px;
+    margin-top: 25px;
+}
+.color_picker img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.freckle-face-regular {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .code_game{
+    background-color: #96d4d4;
+    width: 100%;
+    margin: auto;
+    top:-5px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    position: relative;
+  }
+  .code_game h1{
+    font-size: 55px;
+  }
+  .code_game p{
+    font-size: 35px;
+    margin-top: -30px;
+  }
+  .code_game img{
+    width: 100%;
+    max-width: 140px;
+    margin-top: 25px;
+  }
+  .code_game a{
+    display: block;
+    text-decoration: none;
+    padding: 13px 18px;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: black;
+    color: #f1f1f1;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  

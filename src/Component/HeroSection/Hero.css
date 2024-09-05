@@ -1,7 +1,6 @@
 .section_container{
     width: 85%;
     margin: auto;
-    /* max-width: 1200px; */
 }
 .hero_section{
     background: url("https://www.w3schools.com/images/background_in_space.webp") ;
@@ -54,5 +53,6 @@
 }
 .side_img{
     background-repeat: no-repeat;
+    position: relative;
     
 }
