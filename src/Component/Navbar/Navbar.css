@@ -1,3 +1,4 @@
+
 .nav_bar{
     height: 65px;
     background-color:#ffffff;
@@ -5,6 +6,8 @@
     padding: 0px 15px;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 999;
 }
 
 .w3_logo{
@@ -60,7 +63,7 @@
 }
 .right_side button{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
     width: auto;
     margin: auto;
@@ -86,4 +89,38 @@
 }
 .right_side a:hover{
     background-color: lightgrey;
+} 
+
+.second_navbar {
+    background-color: #282a35;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    z-index: 998;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link_list {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.link_list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 9px 16px;
+}
+
+.link_list li a:hover {
+    color: white;
+    background-color: rgba(4, 170, 109, 0.1);
+    border-radius: 8px;
 }

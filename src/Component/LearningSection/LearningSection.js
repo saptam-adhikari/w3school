@@ -1,5 +1,7 @@
 import React from "react";
 import "./LearningSection.css";
+import "./HowtoSection.js"
+import HowtoSection from "./HowtoSection.js";
 
 
 const LearningSection = () => {
@@ -66,8 +68,31 @@ const LearningSection = () => {
         <div className="section_exercise_container">
             <h1>Exercises and Quizzes</h1>
             <p>Test your skills!</p>
+            <div className="exercise_btn"> 
+              <a href="https://www.w3schools.com/exercises/index.php" className="exercise_green">Exercises</a>
+              <a href="https://www.w3schools.com/quiztest/default.asp" className="quizzes_yellow">Quizzes</a>
+            </div>
         </div>
       </div>
+
+      <div className="Webtemplates">
+        <h1 className="">Web Templates</h1>
+        <p className="">Browse our selection of free responsive HTML Templates</p>
+        <img src="https://www.w3schools.com/w3css_templates.webp" alt="color"/>
+        <a href="https://www.w3schools.com/w3css/w3css_templates.asp">Browse Templates</a>
+      </div>
+
+      <div className="kickstart_section">
+        <div className="kickstart_container">
+          <h1>Kickstart your career</h1>
+          <h2>Get certified by completing a course</h2>
+          <a href="#get">Get Started</a>
+        </div>
+        <div></div>
+      </div>
+
+      <HowtoSection/>
+
     </div>
   );
 };

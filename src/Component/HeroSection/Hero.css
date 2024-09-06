@@ -1,6 +1,7 @@
 .section_container{
     width: 85%;
     margin: auto;
+    padding-top: 100px;
 }
 .hero_section{
     background: url("https://www.w3schools.com/images/background_in_space.webp") ;

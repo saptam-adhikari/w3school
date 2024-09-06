@@ -1,0 +1,206 @@
+.howto_section {
+    width: 100%;
+    top: -5px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    margin: auto;
+}
+
+.howto_section h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: black;
+}
+
+.howto_section h3 {
+    font-size: 21px;
+    font-weight: 640;
+    margin-bottom: 0;
+    color: black;
+}
+
+.howto_section p {
+    font-size: 17px;
+    font-weight: 640;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.browser-container {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #e6e6e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.browser-header {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 6px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 80px;
+}
+
+.control {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.url-bar {
+    background-color: white;
+    align-items: center; 
+    width: 100%;
+    max-width: 500px;
+    padding: 6px;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    text-align: start;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-caption p {
+    color: white;
+}
+
+.carousel-count {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+.howto_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vertical_box{
+    width: 55px;
+    height: 90px;
+    background-color: #282a35;
+
+}
+.howto_btn a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 65px;
+    font-size: 22px;
+    font-weight: 630;
+    border-radius: 30px;
+    background-color: #282a35;
+    color: white;
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    cursor: pointer;
+}
+.howto_btn a:hover{
+    background-color: #04aa6d;
+}
