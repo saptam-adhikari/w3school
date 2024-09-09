@@ -1,7 +1,8 @@
+/* Existing styles */
 
-.nav_bar{
+.nav_bar {
     height: 65px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     width: 98%;
     padding: 0px 15px;
     display: flex;
@@ -10,18 +11,21 @@
     z-index: 999;
 }
 
-.w3_logo{
+.w3_logo {
     width: 56px;
 }
-.w3_logo img{
+
+.w3_logo img {
     width: 100%;
 }
-.left_side{
+
+.left_side {
     display: flex;
     align-items: center;
     height: 100%;
 }
-.left_side a{
+
+.left_side a {
     height: 100%;
     display: flex;
     align-items: center;
@@ -30,38 +34,50 @@
     padding: 0px 13px;
     font-size: 17px;
 }
-.left_side a:hover{
+
+.left_side a:hover {
     background-color: #04aa6d;
     color: #ffffff;
 }
-.left_side a:first-child{
+
+.left_side a:first-child {
     padding: 0;
     margin-right: 20px;
 }
-.left_side a:first-child:hover{
+
+.left_side a:first-child:hover {
     background-color: transparent;
 }
-.left_side input{
-    padding: 5px 40px 5px 15px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-    width: 15%;
-    height: 30px;
+
+.search_input {
+    min-width: 50%;
+    height: 55px;
+    border: none;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 25px; /* Rounded corners for the search input */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.toggleLightDrk{
-    transform: rotate(180deg);
+.toggleLightDrk {
     padding: 10px;
     cursor: pointer;
+    margin-left: -120px;
+    font-size: 28px;
 }
-.right_side{
+
+.right_side {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 18px;
-    padding-left: 100px;
+    padding-left: 150px;
 }
-.right_side button{
+
+.right_side button {
     font-size: 18px;
     font-weight: 500;
     position: relative;
@@ -73,39 +89,58 @@
     background-color: transparent;
     cursor: pointer;
 }
-.right_side button:hover{
+
+.right_side button:hover {
     background-color: lightgrey;
 }
-.right_side a{
+
+.right_side a {
     height: 100%;
     display: flex;
     color: black;
-    padding:15px 18px;
-    margin:auto;
+    padding: 15px 18px;
+    margin: auto;
     font-size: 15px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     cursor: pointer;
 }
-.right_side a:hover{
+
+.right_side a:hover {
     background-color: lightgrey;
-} 
+}
 
 .second_navbar {
     background-color: #282a35;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 65px;
     width: 100%;
     z-index: 998;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.link_list_container {
+    display: flex;
+    flex-grow: 1;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.link_list_container::-webkit-scrollbar {
+    display: none;
 }
 
 .link_list {
     display: flex;
     flex-direction: row;
-    list-style:none;
+    list-style: none;
     padding: 0;
     margin: 0;
     gap: 20px;
@@ -124,3 +159,74 @@
     background-color: rgba(4, 170, 109, 0.1);
     border-radius: 8px;
 }
+
+.scroll_btn {
+    background-color: #282a35;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.scroll_btn.left {
+    margin-right: 10px;
+}
+
+.scroll_btn.right {
+    margin-left: 10px;
+}
+
+.scroll_btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* New styles for the overlay */
+
+.overlay {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: auto;
+}
+
+.overlay_content {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.close_overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.close_overlay:hover {
+    color: #04aa6d;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }

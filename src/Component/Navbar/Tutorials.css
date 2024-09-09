@@ -1,0 +1,70 @@
+.tutorials {
+    background-color: #282a35;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto; /* Ensures vertical scrolling */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
+}
+
+.header_section{
+    /* display: flex; */
+
+}
+.header_section h1{
+    color: #fff4a3;
+    font-size: 38px;
+    justify-content: space-between;
+    padding: 30px 50px;
+    text-align: left;
+    margin-top: 50px;
+}
+.learning_list{
+    display: flex;
+    gap: 30px;
+}
+.title_section{
+    color: #fff4a3;
+    margin-left: 25px;
+}
+.title_section h1{
+    font-size: 21px;
+    font-weight: 500;
+}
+.courses{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    gap: 15px;
+}
+.learn_btn{
+    text-decoration: none;
+    padding: 10px 35px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+.learn_btn:hover{
+    border-radius:5px;
+    background-color: grey;
+    color: black;
+
+}
+.courses span{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.courses a{
+    font-size: 12px;
+    color:#fff4a3;
+    font-weight: 600;
+}
+
+

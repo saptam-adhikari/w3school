@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { IoSearch } from "react-icons/io5";
+// import SearchOption from "../Navbar/SearchOption";
 
 const Hero = () => {
   return (
@@ -9,6 +10,7 @@ const Hero = () => {
         <h1>Learn to Code</h1>
         <p>With the world's largest web developer site.</p>
         <div className="search_section">
+          {/* <SearchOption/> */}
           <input type="text" placeholder="Search our tutorials, e.g. HTML" />
           <IoSearch />
         </div>
