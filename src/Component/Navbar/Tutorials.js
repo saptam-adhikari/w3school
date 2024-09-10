@@ -1,13 +1,13 @@
 import React from "react";
-import SearchOption from "./SearchOption";
 import "./Tutorials.css";
+import Searchbar from "./Searchbar";
 
 const Tutorials = () => {
   return (
     <div className="tutorials">
       <div className="header_section">
         <h1>Tutorials</h1>
-        <SearchOption />
+        <Searchbar />
       </div>
       <div className="learning_list">
         <div className="title_section">
@@ -269,101 +269,463 @@ const Tutorials = () => {
             </a>
           </div>
         </div>
-        <div className='title_section'>
-            <h1>Backend</h1>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/python/default.asp'>Learn<span>Python</span></a>
-                <a href="https://www.w3schools.com/python/default.asp">Tutorials</a>
-                <a href="https://www.w3schools.com/python/python_reference.asp">Reference</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/sql/default.asp'>Learn<span>SQL</span></a>
-                <a href="https://www.w3schools.com/sql/default.asp">Tutorials</a>
-                <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">Reference</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/mysql/default.asp'>Learn<span>MySQL</span></a>
-                <a href="https://www.w3schools.com/mysql/default.asp">Tutorials</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/php/default.asp'>Learn<span>PHP</span></a>
-                <a href="https://www.w3schools.com/php/default.asp">Overview</a>
+        <div className="title_section">
+          <h1>Backend</h1>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/python/default.asp"
+            >
+              Learn<span>Python</span>
+            </a>
+            <a href="https://www.w3schools.com/python/default.asp">Tutorials</a>
+            <a href="https://www.w3schools.com/python/python_reference.asp">
+              Reference
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/sql/default.asp"
+            >
+              Learn<span>SQL</span>
+            </a>
+            <a href="https://www.w3schools.com/sql/default.asp">Tutorials</a>
+            <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">
+              Reference
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/mysql/default.asp"
+            >
+              Learn<span>MySQL</span>
+            </a>
+            <a href="https://www.w3schools.com/mysql/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/php/default.asp"
+            >
+              Learn<span>PHP</span>
+            </a>
+            <a href="https://www.w3schools.com/php/default.asp">Overview</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/java/default.asp"
+            >
+              Learn<span>JAVA</span>
+            </a>
+            <a href="https://www.w3schools.com/java/default.asp">Tutorials</a>
+            <a href="https://www.w3schools.com/java/java_ref_reference.asp">
+              Reference
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/c/index.php"
+            >
+              Learn<span>C</span>
+            </a>
+            <a href="https://www.w3schools.com/c/index.php">Tutorials</a>
+            <a href="https://www.w3schools.com/c/c_ref_reference.php">
+              Reference
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/cpp/default.asp"
+            >
+              Learn<span>C++</span>
+            </a>
+            <a href="https://www.w3schools.com/cpp/default.asp">Tutorials</a>
+            <a href="https://www.w3schools.com/cpp/cpp_ref_reference.asp">
+              Reference
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/cs/index.php"
+            >
+              Learn<span>C#</span>
+            </a>
+            <a href="https://www.w3schools.com/cs/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/r/default.asp"
+            >
+              Learn<span>SVG</span>
+            </a>
+            <a href="https://www.w3schools.com/r/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/kotlin/index.php"
+            >
+              Learn<span>Kotlin</span>
+            </a>
+            <a href="https://www.w3schools.com/kotlin/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/go/index.php"
+            >
+              Learn<span>Go</span>
+            </a>
+            <a href="https://www.w3schools.com/go/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/django/index.php"
+            >
+              Learn<span>Django</span>
+            </a>
+            <a href="https://www.w3schools.com/django/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/postgresql/index.php"
+            >
+              Learn<span>PostgreSQL</span>
+            </a>
+            <a href="https://www.w3schools.com/postgresql/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/typescript/index.php"
+            >
+              Learn<span>TypeScript</span>
+            </a>
+            <a href="https://www.w3schools.com/typescript/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/asp/default.asp"
+            >
+              Learn<span>ASP</span>
+            </a>
+            <a href="https://www.w3schools.com/asp/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/nodejs/default.asp"
+            >
+              Learn<span>Node.Js</span>
+            </a>
+            <a href="https://www.w3schools.com/r/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp"
+            >
+              Learn<span>Rasberry pi</span>
+            </a>
+            <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/git/default.asp"
+            >
+              Learn<span>Git</span>
+            </a>
+            <a href="https://www.w3schools.com/git/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/mongodb/index.php"
+            >
+              Learn<span>MongoDb</span>
+            </a>
+            <a href="https://www.w3schools.com/mongodb/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/xml/default.asp"
+            >
+              Learn<span>XML</span>
+            </a>
+            <a href="https://www.w3schools.com/xml/default.asp">Tutorials</a>
+          </div>
+        </div>
+        <div className="title_section">
+          <h1>Data Analytics</h1>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/ai/default.asp"
+            >
+              Learn<span>AI</span>
+            </a>
+            <a href="https://www.w3schools.com/ai/default.asp">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/gen_ai/index.php"
+            >
+              Learn<span>Generative AI</span>
+            </a>
+            <a href="https://www.w3schools.com/gen_ai/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php"
+            >
+              Learn<span>ChatGPT-3.5</span>
+            </a>
+            <a href="https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/gen_ai/chatgpt-4/index.php"
+            >
+              Learn<span>ChatGPT-4</span>
+            </a>
+            <a href="https://www.w3schools.com/gen_ai/chatgpt-4/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/gen_ai/bard/index.php"
+            >
+              Learn<span>Machine Learning</span>
+            </a>
+            <a href="https://www.w3schools.com/gen_ai/bard/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/dsa/index.php"
+            >
+              Learn<span>DSA</span>
+            </a>
+            <a href="https://www.w3schools.com/dsa/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/datascience/default.asp"
+            >
+              Learn<span>Data Science</span>
+            </a>
+            <a href="https://www.w3schools.com/datascience/default.asp">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/python/numpy/default.asp"
+            >
+              Learn<span>NumPy</span>
+            </a>
+            <a href="https://www.w3schools.com/python/numpy/default.asp">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/python/pandas/default.asp"
+            >
+              Learn<span>Pandas</span>
+            </a>
+            <a href="https://www.w3schools.com/python/pandas/default.asp">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/python/scipy/index.php"
+            >
+              Learn<span>SciPy</span>
+            </a>
+            <a href="https://www.w3schools.com/python/scipy/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/python/matplotlib_intro.asp"
+            >
+              Learn<span>Matplotlib</span>
+            </a>
+            <a href="https://www.w3schools.com/python/matplotlib_intro.asp">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/statistics/index.php"
+            >
+              Learn<span>Statistics</span>
+            </a>
+            <a href="https://www.w3schools.com/statistics/index.php">
+              Tutorials
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/excel/index.php"
+            >
+              Learn<span>Excel</span>
+            </a>
+            <a href="https://www.w3schools.com/excel/index.php">Tutorials</a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/googlesheets/index.php"
+            >
+              Learn<span>Google Sheets</span>
+            </a>
+            <a href="https://www.w3schools.com/googlesheets/index.php">
+              Tutorials
+            </a>
+          </div>
+        </div>
 
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/java/default.asp'>Learn<span>JAVA</span></a>
-                <a href="https://www.w3schools.com/java/default.asp">Tutorials</a>
-                <a href="https://www.w3schools.com/java/java_ref_reference.asp">Reference</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/c/index.php'>Learn<span>C</span></a>
-                <a href="https://www.w3schools.com/c/index.php">Tutorials</a>
-                <a href="https://www.w3schools.com/c/c_ref_reference.php">Reference</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/cpp/default.asp'>Learn<span>C++</span></a>
-                <a href="https://www.w3schools.com/cpp/default.asp">Tutorials</a>
-                <a href="https://www.w3schools.com/cpp/cpp_ref_reference.asp">Reference</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/cs/index.php'>Learn<span>C#</span></a>
-                <a href="https://www.w3schools.com/cs/index.php">Tutorials</a>
-                
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/r/default.asp'>Learn<span>SVG</span></a>
-                <a href="https://www.w3schools.com/r/default.asp">Tutorials</a>
-                </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/kotlin/index.php'>Learn<span>Kotlin</span></a>
-                <a href="https://www.w3schools.com/kotlin/index.php">Tutorials</a>
-               
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/go/index.php'>Learn<span>Go</span></a>
-                <a href="https://www.w3schools.com/go/index.php">Tutorials</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/django/index.php'>Learn<span>Django</span></a>
-                <a href="https://www.w3schools.com/django/index.php">Tutorials</a>
-               
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/postgresql/index.php'>Learn<span>PostgreSQL</span></a>
-                <a href="https://www.w3schools.com/postgresql/index.php">Tutorials</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/typescript/index.php'>Learn<span>TypeScript</span></a>
-                <a href="https://www.w3schools.com/typescript/index.php">Tutorials</a>
-               
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/asp/default.asp'>Learn<span>ASP</span></a>
-                <a href="https://www.w3schools.com/asp/default.asp">Tutorials</a>
-                
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/nodejs/default.asp'>Learn<span>Node.Js</span></a>
-                <a href="https://www.w3schools.com/r/default.asp">Tutorials</a>
-                </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp'>Learn<span>Rasberry pi</span></a>
-                <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp">Tutorials</a>
-               
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/git/default.asp'>Learn<span>Git</span></a>
-                <a href="https://www.w3schools.com/git/default.asp">Tutorials</a>
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/mongodb/index.php'>Learn<span>MongoDb</span></a>
-                <a href="https://www.w3schools.com/mongodb/index.php">Tutorials</a>
-               
-            </div>
-            <div className='courses'>
-                <a className='learn_btn' href='https://www.w3schools.com/xml/default.asp'>Learn<span>XML</span></a>
-                <a href="https://www.w3schools.com/xml/default.asp">Tutorials</a>
-            </div>
+        <div className="title_section">
+          <h1>Web Building</h1>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/spaces/index.php"
+            >
+              <span>Create a Website</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/spaces/index.php"
+            >
+              <span>Create a Server</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/where_to_start.asp"
+            >
+              <span>Where to Start</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/w3css/w3css_templates.asp"
+            >
+              <span>Web Templates</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/browsers/default.asp"
+            >
+              <span>Web Statistics</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a className="learn_btn" href="https://campus.w3schools.com/">
+              <span>Web Cirtificates</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/whatis/default.asp"
+            >
+              <span>Web Devlopments</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/tryit/default.asp"
+            >
+              <span>Code Editor</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/typingspeed/default.asp"
+            >
+              <span>Test your Typing Speed</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/codegame/index.html"
+            >
+              <span>Play a Code Game</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/cybersecurity/index.php"
+            >
+              <span>Cyber Security</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://www.w3schools.com/accessibility/index.php"
+            >
+              <span>Accessibility</span>
+            </a>
+          </div>
+          <div className="courses">
+            <a
+              className="learn_btn"
+              href="https://campus.w3schools.com/pages/newsletter"
+            >
+              <span>Join Our Newsletter</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

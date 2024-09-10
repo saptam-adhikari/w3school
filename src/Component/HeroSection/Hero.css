@@ -2,6 +2,7 @@
     width: 85%;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .hero_section{
     background: url("https://www.w3schools.com/images/background_in_space.webp") ;
@@ -18,20 +19,25 @@
 .hero_section h1{
     font-size: 73px;
     color:white;
-    margin: 0;
+    margin-top: 550px;
+   
 }
 .hero_section p{
     color:#fff4a3;
     font-size: 23px;
     font-weight: 800;
     text-align: center;
+    margin: auto ;
+    margin-bottom: 30px;
 }
-.hero_section h2{
+.hero_section a{
     color: white;
     text-decoration: underline;
     cursor: pointer;
+    font-size: 24px;
+    padding: 40px;
 }
-.hero_section h2:hover{
+.hero_section a:hover{
     color:#fff4a3 ;
 }
 .search_section{
@@ -42,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px;
 }
 .search_section input{
     height: 100%;
@@ -49,11 +56,11 @@
     border-radius: 50px 0px 0px 50px;
     border: none;
     outline: none;
-    padding: 0px 20px;
+    padding: 10px 20px;
     font-size: 16px;
 }
-.side_img{
+.side_img img{
     background-repeat: no-repeat;
-    position: relative;
-    
+    margin-left: 1000px;
+    padding-bottom: 400px;
 }

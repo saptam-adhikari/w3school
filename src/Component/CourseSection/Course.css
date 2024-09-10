@@ -79,13 +79,17 @@
   }
   .editor_btn{
     background-color: #04aa6d;
-    color: white;
     border: none;
     border-radius: 50px;
     font-size: 18px;
     font-weight: 500;
     padding: 10px 40px;
     margin-top: 20px;
+  }
+  .editor_btn a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
   }
 
   .section_css{

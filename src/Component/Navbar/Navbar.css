@@ -84,11 +84,12 @@
     width: auto;
     margin: auto;
     border: transparent;
-    border-radius: 25px;
+    border-radius: 50px;
     padding: 8px 16px;
     background-color: transparent;
     cursor: pointer;
 }
+
 
 .right_side button:hover {
     background-color: lightgrey;
@@ -96,14 +97,13 @@
 
 .right_side a {
     height: 100%;
-    display: flex;
+    text-decoration: none;
     color: black;
-    padding: 15px 18px;
+    padding: 10px 17px;
     margin: auto;
-    font-size: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
+    font-size: 19px;
     cursor: pointer;
+    border-radius: 25px;
 }
 
 .right_side a:hover {
@@ -182,6 +182,9 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+
+
+
 /* New styles for the overlay */
 
 .overlay {
@@ -220,13 +223,28 @@
 .close_overlay:hover {
     color: #04aa6d;
 }
-.dark-mode {
-    background-color: black;
+
+  .auth_page_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close_auth_page {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
     color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
   }
-  .body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
+  

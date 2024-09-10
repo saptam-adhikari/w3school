@@ -14,7 +14,7 @@ const Hero = () => {
           <input type="text" placeholder="Search our tutorials, e.g. HTML" />
           <IoSearch />
         </div>
-        <h2>Not Sure Where To Begin?</h2>
+        <a href="https://www.w3schools.com/where_to_start.asp">Not Sure Where To Begin?</a>
         <div className="side_img">
           <img
             src="https://www.w3schools.com/images/lynx_in_space.webp"

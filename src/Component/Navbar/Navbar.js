@@ -7,11 +7,16 @@ import { FiShoppingCart } from "react-icons/fi";
 import { FaUserLarge } from "react-icons/fa6";
 import SearchOption from "./SearchOption";
 import Tutorials from "./Tutorials";
+import Exercises from "./Exercises";
+import Certificates from "./Certificates";
+import Services from "./Services";
+import AuthPage from "../LoginPage/AuthPage";
 
 const Navbar = () => {
   const scrollContainerRef = useRef(null);
   const [activeSection, setActiveSection] = useState(null);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [showAuthPage, setShowAuthPage] = useState(false); // State to show/hide AuthPage
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -44,11 +49,21 @@ const Navbar = () => {
     document.body.classList.toggle("dark-mode");
   };
 
+  // Function to toggle the AuthPage visibility
+  const handleShowAuthPage = () => {
+    setShowAuthPage(true);
+  };
+
+  // Function to hide the AuthPage
+  const handleCloseAuthPage = () => {
+    setShowAuthPage(false);
+  };
+
   return (
     <>
       <nav className="nav_bar">
         <div className="left_side">
-          <a href="#logo">
+          <a href="#logo" >
             <div className="w3_logo">
               <img
                 src="https://avatars.githubusercontent.com/u/77673807?v=4"
@@ -72,26 +87,26 @@ const Navbar = () => {
             <SearchOption />
           </div>
           <div className="toggleLightDrk">
-          <button onClick={handleToggleDarkMode}>
+            <button onClick={handleToggleDarkMode}>
               <TiAdjustContrast />
             </button>
           </div>
         </div>
 
         <div className="right_side">
-          <button>Plus</button>
-          <button>
+         
+            <a href="https://www.w3schools.com/plus/index.php"> Plus</a>
+            <a href="https://spaces.w3schools.com/space/">
             <BsCodeSlash />
-            Spaces
-          </button>
-          <button>
+            Spaces</a> 
+            <a href="https://campus.w3schools.com/en-in/collections/course-catalog">
             <FiShoppingCart />
-            Get Certified
-          </button>
-          <button>My W3School</button>
-          <a href="#user">
+            Get Certified</a>
+        
+          <button onClick={handleShowAuthPage} >My W3School</button>
+          <button href="#user" onClick={handleShowAuthPage}>
             <FaUserLarge />
-          </a>
+          </button>
         </div>
       </nav>
 
@@ -102,9 +117,9 @@ const Navbar = () => {
           </button>
           <div className="overlay_content">
             {activeSection === 'Tutorials' && <div><Tutorials/></div>}
-            {activeSection === 'Exercises' && <div><h2>Exercises Content</h2></div>}
-            {activeSection === 'Certificates' && <div><h2>Certificates Content</h2></div>}
-            {activeSection === 'Services' && <div><h2>Services Content</h2></div>}
+            {activeSection === 'Exercises' && <div><Exercises/></div>}
+            {activeSection === 'Certificates' && <div><Certificates/></div>}
+            {activeSection === 'Services' && <div><Services/></div>}
           </div>
         </div>
       )}
@@ -115,49 +130,58 @@ const Navbar = () => {
         </button>
         <div className="link_list_container" ref={scrollContainerRef}>
           <ul className="link_list">
-            <li><a href="#HTML">HTML</a></li>
-            <li><a href="#CSS">CSS</a></li>
-            <li><a href="#JavaScript">JavaScript</a></li>
-            <li><a href="#SQL">SQL</a></li>
-            <li><a href="#Python">Python</a></li>
-            <li><a href="#Java">Java</a></li>
-            <li><a href="#PHP">PHP</a></li>
-            <li><a href="#React">React</a></li>
-            <li><a href="#W3.CSS">W3.CSS</a></li>
-            <li><a href="#C">C</a></li>
-            <li><a href="#C++">C++</a></li>
-            <li><a href="#C#">C#</a></li>
-            <li><a href="#Bootstrap">Bootstrap</a></li>
-            <li><a href="#MySQL">MySQL</a></li>
-            <li><a href="#jQuery">jQuery</a></li>
-            <li><a href="#Excel">Excel</a></li>
-            <li><a href="#XML">XML</a></li>
-            <li><a href="#Django">Django</a></li>
-            <li><a href="#NumPy">NumPy</a></li>
-            <li><a href="#Pandas">Pandas</a></li>
-            <li><a href="#NodeJS">NodeJS</a></li>
-            <li><a href="#R">R</a></li>
-            <li><a href="#TypeScript">TypeScript</a></li>
-            <li><a href="#Angular">Angular</a></li>
-            <li><a href="#Git">Git</a></li>
-            <li><a href="#PostgreSQL">PostgreSQL</a></li>
-            <li><a href="#MongoDB">MongoDB</a></li>
-            <li><a href="#AI">AI</a></li>
-            <li><a href="#Kotlin">Kotlin</a></li>
-            <li><a href="#SASS">SASS</a></li>
-            <li><a href="#Vue">Vue</a></li>
-            <li><a href="#DSA">DSA</a></li>
-            <li><a href="#GenAI">GenAI</a></li>
-            <li><a href="#SciPy">SciPy</a></li>
-            <li><a href="#AWS">AWS</a></li>
-            <li><a href="#Cybersecurity">Cybersecurity</a></li>
-            <li><a href="#DataScience">DataScience</a></li>
+            <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+            <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+            <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+            <li><a href="https://www.w3schools.com/python/default.asp">Python</a></li>
+            <li><a href="https://www.w3schools.com/java/default.asp">Java</a></li>
+            <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+            <li><a href="https://www.w3schools.com/react/default.asp">React</a></li>
+            <li><a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a></li>
+            <li><a href="https://www.w3schools.com/c/index.php">C</a></li>
+            <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
+            <li><a href="https://www.w3schools.com/cs/index.php">C#</a></li>
+            <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap</a></li>
+            <li><a href="https://www.w3schools.com/mysql/default.asp">MySQL</a></li>
+            <li><a href="https://www.w3schools.com/jquery/default.asp">jQuery</a></li>
+            <li><a href="https://www.w3schools.com/excel/index.php">Excel</a></li>
+            <li><a href="https://www.w3schools.com/xml/default.asp">XML</a></li>
+            <li><a href="https://www.w3schools.com/django/index.php">Django</a></li>
+            <li><a href="https://www.w3schools.com/python/numpy/default.asp">NumPy</a></li>
+            <li><a href="https://www.w3schools.com/python/pandas/default.asp">Pandas</a></li>
+            <li><a href="https://www.w3schools.com/nodejs/default.asp">NodeJS</a></li>
+            <li><a href="https://www.w3schools.com/r/default.asp">R</a></li>
+            <li><a href="https://www.w3schools.com/typescript/index.php">TypeScript</a></li>
+            <li><a href="https://www.w3schools.com/angular/default.asp">Angular</a></li>
+            <li><a href="https://www.w3schools.com/git/default.asp">Git</a></li>
+            <li><a href="https://www.w3schools.com/postgresql/index.php">PostgreSQL</a></li>
+            <li><a href="https://www.w3schools.com/mongodb/index.php">MongoDB</a></li>
+            <li><a href="https://www.w3schools.com/ai/default.asp">AI</a></li>
+            <li><a href="https://www.w3schools.com/kotlin/index.php">Kotlin</a></li>
+            <li><a href="https://www.w3schools.com/sass/default.asp">SASS</a></li>
+            <li><a href="https://www.w3schools.com/vue/index.php">Vue</a></li>
+            <li><a href="https://www.w3schools.com/dsa/index.php">DSA</a></li>
+            <li><a href="https://www.w3schools.com/gen_ai/index.php">GenAI</a></li>
+            <li><a href="https://www.w3schools.com/python/scipy/index.php">SciPy</a></li>
+            <li><a href="https://www.w3schools.com/aws/index.php">AWS</a></li>
+            <li><a href="https://www.w3schools.com/cybersecurity/index.php">Cybersecurity</a></li>
+            <li><a href="https://www.w3schools.com/datascience/default.asp">DataScience</a></li>
           </ul>
         </div>
         <button className="scroll_btn right" onClick={scrollRight}>
           &gt;
         </button>
       </div>
+
+      {showAuthPage && (
+        <div className="auth_page_container">
+          <button className="close_auth_page" onClick={handleCloseAuthPage}>
+            &times;
+          </button>
+          <AuthPage />
+        </div>
+      )}
     </>
   );
 };
