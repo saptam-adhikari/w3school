@@ -23,10 +23,14 @@
   }
   
   .footer-nav ul li {
-    color: #f8eda0;
+   
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+  }
+  .footer-nav ul li a{
+    text-decoration: none;
+    color: #f8eda0;
   }
   
   .footer-nav ul li:hover {
@@ -58,8 +62,12 @@
     cursor: pointer;
     margin-left: 90px;
   }
+  .footer-column ul li a{
+    text-decoration: none;
+    color: white;
+  }
   
-  .footer-column ul li:hover {
+  .footer-column ul li:hover a{
     color: #f5c700;
     text-decoration: underline;
   }

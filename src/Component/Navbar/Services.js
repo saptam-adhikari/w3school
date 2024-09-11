@@ -8,7 +8,6 @@ import { FaDiscord } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-// Array of services with link for each
 const servicesData = [
   {
     title: 'Free Tutorials',
@@ -43,7 +42,7 @@ const servicesData = [
   {
     title: 'Log in/Sign Up',
     description: 'Create a free W3School Account to Improve Ypur Learning Experience',
-    link: 'https://profile.w3schools.com/sign-up' // Example external link
+    link: 'https://profile.w3schools.com/sign-up' 
   },
   {
     title: 'Get Certified',
@@ -185,11 +184,11 @@ const Services = () => {
       
       <div className="bottom_part">
         <div className="footer-social-links_part">
-          <a href="#youtube" ><IoLogoYoutube /></a>
-          <a href="#linkdin" ><FaLinkedin /></a>
-          <a href="#discord"><FaDiscord /></a>
-          <a href="#facebook"><FaFacebookSquare /></a>
-          <a href="#instagram"><FaInstagram /></a>
+        <a href="https://www.youtube.com/@w3schools" ><IoLogoYoutube /></a>
+          <a href="https://www.linkedin.com/company/w3schools.com/" ><FaLinkedin /></a>
+          <a href="https://discord.com/invite/w3schools"><FaDiscord /></a>
+          <a href="https://www.facebook.com/w3schoolscom/"><FaFacebookSquare /></a>
+          <a href="https://www.instagram.com/w3schools.com_official/"><FaInstagram /></a>
         </div>
         </div>
       

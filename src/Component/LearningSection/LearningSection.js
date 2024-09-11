@@ -54,7 +54,7 @@ const LearningSection = () => {
       <div className="color_picker">
         <h1>Color Picker</h1>
         <p>W3Schools' famous color picker:</p>
-        <img src="https://www.w3schools.com/images/colorpicker.webp" alt="color"/>
+        <a href="https://www.w3schools.com/colors/colors_picker.asp"><img src="https://www.w3schools.com/images/colorpicker.webp" alt="color"/></a>
       </div>
 
       <div className="code_game">
@@ -86,7 +86,7 @@ const LearningSection = () => {
         <div className="kickstart_container">
           <h1>Kickstart your career</h1>
           <h2>Get certified by completing a course</h2>
-          <a href="#get">Get Started</a>
+          <a href="https://campus.w3schools.com/en-in/collections/course-catalog">Get Started</a>
         </div>
         <div></div>
       </div>

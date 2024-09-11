@@ -34,6 +34,10 @@
     width: 100%;
     max-width: 200px;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
 .btn:hover{
     background-color: black;
 }
@@ -75,6 +79,10 @@
 .firstc{
     background-color: #ffc0c7;
 }
+.firstc a{
+    text-decoration: none;
+    color: black;
+}
 .secondc{
     background-color: #fff4a3;
 }
@@ -103,6 +111,10 @@
 }
 .thirdclr{
     background-color: #96d4d4;
+}
+.courses_midCard a {
+    text-decoration: none;
+    color: black;
 }
 .fourthclr{
     background-color: #ffc0c7;
